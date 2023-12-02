@@ -1,0 +1,10 @@
+*
+!.gitignore
+!.lando.*
+!docroot/wp-content
+docroot/wp-content/*
+!docroot/wp-content/themes
+!docroot/wp-content/themes/*
+docroot/wp-content/themes/*
+!docroot/wp-content/themes/default
+!docroot/wp-content/themes/default/**
