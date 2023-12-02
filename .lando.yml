@@ -1,0 +1,11 @@
+name: default
+recipe: wordpress
+config:
+  webroot: docroot
+services:
+  database:
+    portforward: false
+    creds:
+      user: wordpress
+      password: wordpress
+      database: default

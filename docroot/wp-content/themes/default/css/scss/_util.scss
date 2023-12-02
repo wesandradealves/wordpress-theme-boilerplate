@@ -1,0 +1,5 @@
+@mixin toRem($property, $value) {
+    #{$property}: ($value / 16) + rem;
+}
+
+$section-spacing: 80px;
